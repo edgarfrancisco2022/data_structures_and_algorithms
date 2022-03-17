@@ -82,7 +82,7 @@ public class SinglyLinkedList<E> {
         size++;
     }
 
-    public E removeFirst() {    //returns removed element
+    public E removeFirst() {    // returns removed element
         if (isEmpty()) {
             return null;
         }
