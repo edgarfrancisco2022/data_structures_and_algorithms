@@ -2,7 +2,7 @@ package singly_linked_list;
 
 public class SinglyLinkedList<E> {
 
-//-------------Nested Node class-------------//
+//------------Nested Node class-------------//
     private static class Node<E> {
         private E element;
         private Node<E> next;
